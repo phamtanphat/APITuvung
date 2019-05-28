@@ -14,7 +14,6 @@
 			$this->isMemorized=$isMemorized;
 		}
 	}
-
 	//3 : Tạo ra 1 mảng chứa giá trị và truyền dữ liệu
 	$arraytuvung = array();
 	while ($rowData = mysqli_fetch_assoc($data)) {
